@@ -1,0 +1,41 @@
+p {
+    color: teal;
+    text-align: center;
+    font-family: ui-serif;
+    font-size: xxx-large;
+}
+
+.TheJSJar {
+    align-items: center;
+    border: 5px dotted darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100px;
+    min-width: 100px;
+    padding: 50px;
+    place-items: stretch;
+}
+
+button {
+    background-color: lightsteelblue;
+    border-color: steelblue;
+    border-radius: 10px;
+    border-width: thick;
+
+    cursor: pointer;
+
+    font-size: x-large;
+
+    min-height: 100px;
+    min-width: 100px;
+    padding: 10px 10px;
+    padding-block: 5px;
+
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
