@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <!-- My Own CSS -->
+        <link href="thestyler.css" rel="stylesheet">
+
+        <title>Boostrap Time!</title>
+    </head>
+    <body>
+        <div class="alert alert-info" style="text-align: center" role="alert">
+            Welcome to Jake's Weird and Wonderful Website!
+        </div>
+
+        <div class="mx-auto" style="width: 200px">
+            <button type="button" class="btn btn-outline-danger shadow-lg p-3 mb-5 rounded" id="remoteActivate" data-bs-toggle="collapse" data-bs-target="#panelA-Collapse" aria-expanded="false" aria-controls="panelA-Collapse">
+                Activate <span class="badge bg-danger">Oh my gosh! What does it do???</span>
+            </button>
+        </div>
+
+        <div class="accordion gap-3" id="theAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelA-Header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelA-Collapse" aria-expanded="true" aria-controls="panelA-Collapse">
+                        Collapse & Crumble!!!
+                    </button>
+                </h2>
+                <div id="panelA-Collapse" class="accordion-collapse collapse" aria-labelledby="panelA-Header">
+                    <div class="accordion-body">
+                        <strong>Welcome to The Accordion Zone:</strong> There's not much to do unfortunately...
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="panelB-Header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelB-Collapse" aria-expanded="true" aria-controls="panelB-Collapse">
+                        What's Going To Be Here?!
+                    </button>
+                </h2>
+                <div id="panelB-Collapse" class="accordion-collapse collapse" aria-labelledby="panelB-Header">
+                    <div class="accordion-body">
+                        <strong>Here:</strong> A place that is not there.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <noscript>
+            Something isn't right with JavaScript...is it disabled? Is it acting up? Who knows...
+        </noscript>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- My JS -->
+        <script src="coffeetime.js"></script>
+    </body>
+</html>
